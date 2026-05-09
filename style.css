@@ -2270,10 +2270,10 @@
         border-right: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles .profile-head .c-brief .avatar img {
+    /*.p-profiles .profile-head .c-brief .avatar img {
         width: 160px;
         height: 160px;
-    }
+    }*/
 
     .b-comment > .inner header img {
         width: 48px;
