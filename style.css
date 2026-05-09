@@ -1521,7 +1521,7 @@
         font-size: 16px;
     }
 
-   /* .p-profiles .profile-head .c-brief .avatar {
+    .p-profiles .profile-head .c-brief .avatar {
         background-image: var(--desktop-avatar-image);
         background-size: cover;
         background-position: center;
@@ -1529,11 +1529,11 @@
         border-radius: 3px;
         position: relative;
         border: 1px solid var(--tile-border-color);
-    }*/
+    }
 
-       /* .p-profiles .profile-head .c-brief .avatar img {
+        .p-profiles .profile-head .c-brief .avatar img {
             visibility: hidden;
-        }*/
+        }
 
     .p-clubs-index .b-club {
         width: 100% !important;
@@ -2270,10 +2270,10 @@
         border-right: 1px solid var(--tile-border-color);
     }
 
-    /*.p-profiles .profile-head .c-brief .avatar img {
-        width: 160px;
-        height: 160px;
-    }*/
+    .p-profiles .profile-head .c-brief .avatar img {
+        width: 64px;
+        height: 64px;
+    }
 
     .b-comment > .inner header img {
         width: 48px;
