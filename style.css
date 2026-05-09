@@ -2682,6 +2682,36 @@
     }
 }
 
+.p-profiles-show .b-feedback:after {
+  content: ""; /* "так надо" */
+  display: inline-block; /* не обязательно именно так, но "так надо" */
+  position: fixed; /* именно это свойство и его значение fixed
+                      и делает, чтобы изображение "прокручивалось" */
+  width: 300px; /* ширина изображения */
+  height: 300px; /* высота изображения */
+  right: 0px;  /* отступ справа, 0px значит, что отступа от правой границы нет*/
+  bottom: 0px; /* отступ снизу, 0px значит, что отступа от нижней границы нет*/
+  background: url("https://raw.githubusercontent.com/inane00/shiki-style/refs/heads/main/изображение_2026-05-09_153437787%20(1).png") no-repeat;
+  background-size: cover; /* размер изображения будет подгоняться так,
+                             чтобы занять всё пространство, которое 
+                             задают width и height */
+  z-index: 10; /* изображение становится выше всех по z координате,
+                  тем самым всё остальное находится под ним*/
+  pointer-events: none; /* мышь перестаёт замечать изображение */
+}
+
+
+.p-profiles .profile-head .avatar img{
+  animation: fly 3s ease-in-out infinite;
+  border-radius: 50%;        /* делает изображение кругом */
+  object-fit: cover;         /* чтобы картинка заполняла круг без искажений (если исходник не квадратный) */
+  /* Опционально: рамка и тень */
+  border: 3px solid #fff;   /*белая рамка */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /*тень */
+  content : url("https://raw.githubusercontent.com/inane00/shiki-style/refs/heads/main/изображение_2026-05-09_173945149.png");
+}
+  
+
 
 :root {
     --font-main: var(--main-font) !important;
