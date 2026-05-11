@@ -74,8 +74,8 @@
   margin: -15px;
   margin-bottom: 5px;
 }*/
-
-.p-profiles-show .b-feedback:after {
+/*ПЕРСОНАЖ */
+.p-profiles .profile-head:after {
   content: ""; /* "так надо" */
   display: inline-block; /* не обязательно именно так, но "так надо" */
   position: fixed; /* именно это свойство и его значение fixed
@@ -84,7 +84,7 @@
   height: 300px; /* высота изображения */
   right: 0px;  /* отступ справа, 0px значит, что отступа от правой границы нет*/
   bottom: 0px; /* отступ снизу, 0px значит, что отступа от нижней границы нет*/
-  background: url("https://raw.githubusercontent.com/inane00/shiki-style/refs/heads/main/изображение_2026-05-09_153437787%20(1).png") no-repeat;
+  background: url("https://raw.githubusercontent.com/inane00/shiki-style/refs/heads/main/изображение_2026-05-09_153437787-Photoroom.png") no-repeat;
   background-size: cover; /* размер изображения будет подгоняться так,
                              чтобы занять всё пространство, которое 
                              задают width и height */
